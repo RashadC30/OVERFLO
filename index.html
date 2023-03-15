@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rashad's | Portfolio</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon1.png" />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init("BVBajBuApLlORE-cE");
+      })();
+    </script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Portfolio.</a>
+
+      <i class="bx bx-menu" id="menu-icon"></i>
+
+      <nav class="navbar">
+        <a href="#home" style="--i: 1" class="active">Home</a>
+        <a href="#about" style="--i: 2">About</a>
+        <a href="#skills" style="--i: 3">Skills</a>
+        <a href="#work" style="--i: 4">Work</a>
+        <a href="#contact" style="--i: 5">Contact</a>
+      </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Welcome, I'm</h3>
+        <h1>Rashad Clement</h1>
+        <h3>And I am a <span class="multiple-text"></span></h3>
+        <p>
+          A self-taught web developer with a background in audio engineering. I
+          have an appetite for learning and being taught.
+        </p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/rclement3091" style="--i: 7"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/RashadC30" style="--i: 8"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://twitter.com/ClementRashad91" style="--i: 9"
+            ><i class="bx bxl-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/king_ras_3091/" style="--i: 10"
+            ><i class="bx bxl-instagram"></i
+          ></a>
+        </div>
+        <a href="#" class="btn">Download Resume</a>
+      </div>
+      <div class="home-img">
+        <img src="./assets/images/Home-1.png" alt="The Man" />
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./assets/images/about me.png" alt="about me" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Web Developer</h3>
+        <p>
+          A former Podcast and B.S. degree holder in audio engineer turned web
+          developer I have a passion for challenging myself to never stop
+          learning. I have always been a quick learner so and want to take up
+          something that would challenge me for a long period of time. Learning
+          javascript along with everything attached to web development has been
+          that for me and I and I would love to continue to learn while
+          displaying my talents.
+        </p>
+        <p>
+          Very much a gamer and because of that love is what lead me down this
+          path. But spending time with my family is the my favorite hobby. I try
+          to wear a lot of hat in family which let me to picking up cooking and
+          sewing as two of my newer hobbies. Because of wanting to be around
+          family as much as possible I chose to take this path as a web
+          developer. It also helps that a goal of mine to help design and create
+          a video game and being a web developer is a great starting point for
+          that.
+        </p>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <div class="skills-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            I am a front end web developer specializing in building (and
+            occasionally designing) exceptional digital experiences. Currently,
+            I am focused on building responsive front-end web applications with
+            JavaScript, React, TypeScript and Node while learning back-end
+            technologies.
+          </p>
+          <img src="assets/tech/javascript.png" alt="javascript" />
+          <img src="assets/tech/reactjs.png" alt="react" />
+          <img src="assets/tech/nodejs.png" alt="node" />
+          <img src="assets/tech/typescript.png" alt="typescript" />
+          <img src="assets/tech/html.png" alt="html" />
+          <img src="assets/tech/css.png" alt="css" />
+          <img src="assets/tech/tailwind.png" alt="tailwind" />
+        </div>
+        <div class="skills-box">
+          <i class="bx bx-podcast"></i>
+          <h3>Audio Engineer</h3>
+          <p>
+            Skilled Audio Engineer with an extensive background in recording,
+            mixing post-production, podcasting and live sound. Very passionate
+            about bringing projects from conception to reality, seeking a new
+            challenge with an organization that will give me the opportunity to
+            apply and enriches my experience.
+          </p>
+          <img src="assets/tech/pro-tools.png" alt="pro tools" />
+          <img src="assets/tech/logic-pro.png" alt="logic pro" />
+          <img src="assets/tech/premiere-pro.png" alt="premiere pro" />
+          <img src="assets/tech/audition.png" alt="audition" />
+          <img src="assets/tech/OBS.png" alt="obs" />
+        </div>
+      </div>
+    </section>
+
+    <!-- WORK SECTION -->
+    <section class="work" id="work">
+      <h2 class="heading">Recent <span>Projects</span></h2>
+
+      <div class="work-container">
+        <div class="work-box">
+          <img src="assets/images/robofriends.png" alt="" />
+          <div class="work-layer">
+            <h4>Robo-Friends</h4>
+            <p>
+              When you have a need to give you email list a little jazzing up
+              this React project helps you keep each person's name, email and
+              whatever else you need togther. Also gives them a entertaining
+              robot head from an api known as robohash.org. The search box give
+              you the freedom to find each robot quickly if you don't have the
+              time to scroll.
+            </p>
+            <a href="https://github.com/RashadC30/Robo-Friends"
+              ><i class="bx bx-code"></i
+            ></a>
+            <a href="https://rashadc30.github.io/Robo-Friends/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="work-box">
+          <img src="assets/images/TWD-photo.png" alt="" />
+          <div class="work-layer">
+            <h4>The Walking Dead</h4>
+            <p>
+              When the world goes to the zombies why not have a little fun? Used
+              Pro Tools to rip out the original sounds and add sounds from my
+              library.
+            </p>
+            <a href="https://youtu.be/f1hyHQNz4p4"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="work-box">
+          <img src="assets/images/weatherapp.png" alt="" />
+          <div class="work-layer">
+            <h4>Mr. Weather</h4>
+            <p>
+              Created with React some JSX and a little bit of CSS, this app has
+              the capability of giving the user an exact reading of the forecast
+              of any city on the planet. All weather information was obtained a
+              from openweather.org, which is a very reliable weather API. With
+              react i was able to give the user the option to search for
+              temperature reading, wind direction and speed, humidity amoung
+              other things in either fahrenheit or celsius.
+            </p>
+            <a href="https://github.com/RashadC30/Mr.-Weather_React"
+              ><i class="bx bx-code"></i
+            ></a>
+            <a href="https://rashadc30.github.io/Mr.-Weather_React/"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="work-box">
+          <img src="assets/images/Pinched-photo.png" alt="" />
+          <div class="work-layer">
+            <h4>Pinched</h4>
+            <p>
+              Took sounds from my personal library to create a different feel to
+              this piece after I took out all the original sounds. Recorded my
+              own vocals and filtered them through some plug-ins to give them a
+              unique feel for each character.
+            </p>
+            <a href="https://youtu.be/_z9pfgiqjUA"
+              ><i class="bx bx-link-external"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Get in <span>Touch!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Your Name" id="name" />
+          <input type="email" placeholder="Email" id="email" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Cellphone Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id="message"
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input
+          onclick="sendMail()"
+          type="submit"
+          value="Send Message"
+          class="btn"
+        />
+      </form>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2023 by Rashad Clement | All Rights Reserved</p>
+
+        <div class="footer-iconTop">
+          <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- TYPED.JS -->
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+
+    <!-- CUSTOM SECTION -->
+    <script src="app.js"></script>
+  </body>
+</html>
