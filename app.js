@@ -1,6 +1,6 @@
 // ACTIVE TYPED SWITCHING
 const typed = new Typed(".multiple-text", {
-  strings: ["Web Developer", "ReactJS Developer", "Audio Engineer"],
+  strings: ["Nurse", "Mentor", "Survivor"],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
